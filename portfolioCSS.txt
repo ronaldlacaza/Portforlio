@@ -1,0 +1,226 @@
+.container{
+    width: 745px;
+    min-height: 750px;
+    margin: 0px auto;
+    background-color: rgb(248, 245, 240);
+}
+    .container .top{
+        background-color: rgb(248, 245, 240);
+        height: 50px;
+    }
+        .top h1{
+            min-height: 30px;
+            display: inline-block;
+            padding: 0px 200px 0px 0px;
+            margin: 10px 20px;
+        }
+        .top h2{
+            min-height: 30px;
+            display: inline-block;
+            font-size: 20px;
+            margin: 5px 15px;
+        }
+    .container .wrapper{
+        background-color: rgb(49, 41, 46);
+        min-height: 825px;
+        }
+        .wrapper .image{
+            border: 4px solid lightgrey;
+            height: 220px;
+            width: 330px;
+            margin: 15px;
+            display: inline-block;
+        }
+            .image img{
+                width: 330px;
+                height: 220px;
+            }
+        .wrapper .main_content{
+            background-color: rgb(247, 247, 241);
+            height: 228px;
+            width: 355px;
+            font-size: 14px;
+            margin: 15px 0px;
+            display: inline-block;
+            vertical-align: top;
+            line-height: 15px;
+        }
+            .main_content h1{
+                width: 335px;
+                min-height: 20px;
+                font-size: 17px;
+                color: white;
+                background-color: rgb(159, 163, 159);
+                margin: 0px;
+                padding: 12px 10px 0px 10px;
+            }
+            .wrapper p{
+                padding: 0px 10px;
+                vertical-align: top;
+            }
+        .wrapper .row1{
+            background-color: rgb(247, 247, 241);
+            width: 225px;
+            height: 550px;
+            display: inline-block;
+            margin: 0px 15px;
+        }
+            .row1 h1{
+                margin: 0px;
+                padding: 3px 0px 3px 7px;
+                height: 20px;
+                font-size: 18px;
+                color: white;
+                background-color: rgb(159, 163, 159);
+            }
+            .row1 img{
+                width: 225px;
+                height: 125px;
+                margin: 0px;
+            }
+            .row1 p{
+                font-size: 13px;
+                padding: 0px 10px 44px 10px;
+                line-height: 15px;
+            }
+            .row1 h2{
+                font-size: 15px;
+                padding: 10px;
+                color: white;
+                background-color: rgb(159, 163, 159);
+            }
+            .row1 h3 img{
+                width: 25px;
+                height: 25px;
+                padding: 8px;
+                background-color: rgb(247, 247, 241);
+                display: inline-block;
+            }
+            .row1 h4{
+                height: 16px;
+                font-size: 13px;
+                text-align: center;
+                background-color: darkgreen;
+                border-radius: 8px;
+                color: white;
+                margin: 0px 80px;
+                padding: 5px;
+            }
+        .wrapper .row2{
+            background-color: rgb(247, 247, 241);
+            width: 225px;
+            height: 550px;
+            display: inline-block;
+            vertical-align: top;
+        }
+            .row2 h1{
+                margin: 0px;
+                padding: 3px 0px 3px 7px;
+                height: 20px;
+                font-size: 18px;
+                color: white;
+                background-color: rgb(159, 163, 159);
+            }
+            .row2 img{
+                width: 225px;
+                height: 125px;
+                margin: 0px;
+            }
+            .row2 p{
+                font-size: 13px;
+                padding: 0px 10px 15px 10px;
+                line-height: 15px;
+            }
+            .row2 h2{
+                font-size: 15px;
+                padding: 10px;
+                color: white;
+                background-color: rgb(159, 163, 159);
+            }
+            .row2 h3 img{
+                width: 25px;
+                height: 25px;
+                padding: 8px;
+            }
+            .row2 h4{
+                height: 16px;
+                font-size: 13px;
+                text-align: center;
+                background-color: darkgreen;
+                border-radius: 8px;
+                color: white;
+                line-height: 10px;
+                margin: 0px 60px;
+                padding: 8px 0px 0px 0px;
+            }
+        .wrapper .row3{
+            background-color: rgb(247, 247, 241);
+            width: 225px;
+            height: 550px;
+            display: inline-block;
+            vertical-align: top;
+            margin: 0px 15px;
+        }
+            .row3 h1{
+                margin: 0px;
+                padding: 3px 0px 3px 7px;
+                height: 20px;
+                font-size: 18px;
+                color: white;
+                background-color: rgb(159, 163, 159);
+            }
+            .row3 img{
+                width: 225px;
+                height: 125px;
+                margin: 0px;
+            }
+            .row3 p{
+                font-size: 13px;
+                padding: 0px 0px 0px 10px;
+                line-height: 15px;
+            }
+            .row3 h2{
+                font-size: 15px;
+                padding: 10px;
+                color: white;
+                background-color: rgb(159, 163, 159);
+            }
+            .row3 h3 img{
+                width: 25px;
+                height: 25px;
+                padding: 8px;
+            }
+            .row3 h4{
+                height: 16px;
+                font-size: 13px;
+                text-align: center;
+                background-color: darkgreen;
+                border-radius: 8px;
+                color: white;
+                line-height: 10px;
+                margin: 0px 75px;
+                padding: 8px 0px 0px 0px;
+            }
+    .container .footer{
+        background-color: rgb(248, 245, 240);
+        height: 50px;
+        text-align: center;
+    }
+        .footer h1{
+            font-size: 15px;
+            font-style: unset;
+        }
+        .footer ul li{
+            display: inline-block;
+            padding: 0px 3px 0px 3px;
+        }
+            ul li a{
+                font-size: 15px;
+                font-style: italic;
+                color: black;
+            }
+            ul li img{
+                width: 20px;
+                height: 20px;
+                padding: 0px 5px 0px 5px;
+            }
